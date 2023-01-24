@@ -13,6 +13,7 @@ const CodeCell = () => {
       const output = await bundle(input);
       setCode(output);
     }, 1000);
+    // will run next time useEffect is called
     return () => clearTimeout(timer);
   }, [input]);
 
