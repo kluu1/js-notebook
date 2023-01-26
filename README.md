@@ -8,6 +8,8 @@ Technology used
 - Localforage to cache npm packages in indexedDB
 - Prettier
 - Monaco Editor
+- MDEditor
+- React-Resizable
 
 - Write custom ESBuild plugin to pull packages from unpkg
 - Cache npm packages that's already been fetched in indexedDB
